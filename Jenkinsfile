@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('run') {
             steps {
-                echo 'Hello Ersin'
-                sh 'python3 --versin'
+                echo 'Clarusway_Way to Reinvent Yourself'
+                sh 'python3 --version'
                 sh 'python3 pipeline.py'
             }
         }
